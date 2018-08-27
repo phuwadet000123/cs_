@@ -61,7 +61,7 @@
                         <td><center><?php echo $row['ac_name']; ?></center></td>
 
                         <!-- img -->
-                        <td><center><img src="../images/<?php echo $row['ac_img']; ?>" style="width:150px;height:100px;"></center></td>
+                        <td><center><img src="../images_ac/<?php echo $row['ac_img']; ?>" style="width:150px;height:130px;"></center></td>
             
             
                         <!-- ชื่อ -->
@@ -75,7 +75,7 @@
                         </a></center></td>
                         
                         <!-- edit -->
-                        <td><center><a href="frm_medic_edit.php?medicine_id=<?php echo $row['medicine_id']; ?>" class="btn btn-warning btn-md">
+                        <td><center><a href="ac_edit.php?ac_id=<?php echo $row['ac_id']; ?>" class="btn btn-warning btn-md">
                                 <span class="fa fa-edit w3-xxlarge"></span>
                         </a></center></td>
                         

@@ -45,23 +45,12 @@ $result = pg_fetch_array($query);
   <div class="w3-bar w3-black w3-card">
     
    
-    <div class="w3-dropdown-hover w3-hide-small">
-      
-      </div>
-      <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">ข้อมูลนักศึกษา <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-         <a href=""  class="w3-bar-item w3-button"  onClick="myfunction()" >ชั้นปีที่ 1</a>
-         <a href=""  class="w3-bar-item w3-button"  onClick="myfunction1()" >ชั้นปีที่ 2</a>
-         <a href=""  class="w3-bar-item w3-button"  onClick="myfunction()" >ชั้นปีที่ 3</a>
-         <a href=""  class="w3-bar-item w3-button"  onClick="myfunction1()" >ชั้นปีที่ 4</a>
-      </div>
-      </div>
-      <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">ข้อมูลอาจารย์ <i class="fa fa-caret-down"></i></button>
-      </div>
-    <a href="ac_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">กิจกรรม</a>
-    <a href="logout.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-dark-grey">ออกจากระบบ</a>
+    
+      <a href="st_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ข้อมูลนักศึกษา</a>
+      <a href="ac_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ข้อมูลบุคลากร</a>
+      <a href="ac_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ข้อมูลกิจกรรม</a>
+      <a href="ac_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ข้อมูลผู้ใช้</a>
+      <a href="logout.php" class="w3-right w3-bar-item w3-button w3-padding-large w3-hide-small w3-dark">ออกจากระบบ</a>
     
   </div>
   

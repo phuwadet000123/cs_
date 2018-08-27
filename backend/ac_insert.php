@@ -14,7 +14,7 @@
   //upload image
   $ext = pathinfo(($_FILES['ac_img']['name']), PATHINFO_EXTENSION); //นามสกุลของไฟล์
   $new_image_name = 'img_' . uniqid() . "." . $ext;
-  $image_path = '../images/';
+  $image_path = '../images_ac/';
   $upload_path = $image_path . $new_image_name;
   //uploading
   $sucess = move_uploaded_file($_FILES['ac_img']['tmp_name'], $upload_path);

@@ -40,7 +40,7 @@
     <input class="w3-input w3-border w3-sand" name="ac_place" type="text" ></p>
     <p>      
     <label class="w3-text-black"><b>วันเวลา</b></label>
-    <input class="w3-input w3-border w3-sand" name="ac_date" type="date" ></p>
+    <input class="w3-input w3-border w3-sand" name="ac_date" type="text" ></p>
     <p>      
     <label class="w3-text-black"><b>ติดค่อ</b></label>
     <input class="w3-input w3-border w3-sand" name="ac_contact" type="text" ></p>

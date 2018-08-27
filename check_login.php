@@ -27,11 +27,8 @@
         if ($result['cs_status'] == 'admin') {
             header("Location:backend/ac_manage.php");
         } 
-        elseif($result['cs_status'] == 'expert') {
-            header("Location:expert/a_home.php");
-        } 
         else {
-            header("Location:user/place_manage.php");
+            header("Location:user/ac_manage.php");
         }
     } 
     else {
