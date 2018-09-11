@@ -34,7 +34,7 @@
     else {
         echo '<script>
                 alert("ชื่อ หรือ รหัสผ่าน ไม่ถูกต้อง");
-                window.location="cs_login.php";
+                window.location="index.php";
               </script>'; 
     }
 

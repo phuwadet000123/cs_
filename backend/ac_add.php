@@ -31,7 +31,7 @@
     <input class="w3-input w3-border w3-sand" name="ac_name" type="text"></p>
     <p>      
     <label class="w3-text-black"><b>ข้อมูลกิจกรรม</b></label>
-    <input class="w3-input w3-border w3-sand" name="ac_data" type="text" rows="9"></p>
+    <textarea class="w3-input w3-border w3-sand" name="ac_data" type="text" rows="9"></textarea></p>
     <p>      
     <label for="ac_img" class="w3-text-black control-label">รูปภาพ :</label>
     <input type="file" name="ac_img" accept="image/*" required></p>

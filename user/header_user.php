@@ -42,7 +42,7 @@ $result = pg_fetch_array($query);
    href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
    <i class="fa fa-bars"></i></a>
    
-  <div class="w3-bar w3-black w3-card">
+  <div class="w3-bar w3-black w3-card w3-container">
     
    
     

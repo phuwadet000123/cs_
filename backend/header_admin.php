@@ -42,14 +42,15 @@ $result = pg_fetch_array($query);
    href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
    <i class="fa fa-bars"></i></a>
    
-  <div class="w3-bar w3-black w3-card">
+  <div class="w3-bar w3-black w3-card w3-container">
     
    
     
       <a href="st_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ข้อมูลนักศึกษา</a>
       <a href="ac_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ข้อมูลบุคลากร</a>
       <a href="ac_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ข้อมูลกิจกรรม</a>
-      <a href="ac_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ข้อมูลผู้ใช้</a>
+      <a href="user_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ข้อมูลสมาชิกทั่วไป</a>
+      <a href="user_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ข้อมูลผู้ดูแลระบบ</a>
       <a href="logout.php" class="w3-right w3-bar-item w3-button w3-padding-large w3-hide-small w3-dark">ออกจากระบบ</a>
     
   </div>
