@@ -13,7 +13,7 @@
         <div class="w3-container">
            
             
-            <h2>ข้อมูลนักศึกษา</h2> 
+            <h2>ข้อมูลนักศึกษาชั้นปีที่ 3</h2> 
             <table class="w3-table-all w3-card-4 ">
                 <thead>
                     
@@ -33,8 +33,9 @@
 
                         $sqlPage = "SELECT * FROM cs_class
                                     INNER JOIN cs_student
-                                    on cs_class.class_id = cs_student.class_id                                     
-                                    ORDER BY class_name ASC limit {$perpage} offset {$start}
+                                    on cs_class.class_id = cs_student.class_id
+                                    WHERE class_name = ('3')                                     
+                                    ORDER BY st_id ASC limit {$perpage} offset {$start}
                                    ";
                         $queryPage = pg_query($db, $sqlPage);
                     ?>

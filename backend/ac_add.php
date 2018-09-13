@@ -2,7 +2,7 @@
         require 'header_admin.php';
 
         
-        //medicine
+        //activity
         $sql_data = "SELECT MAX(ac_id) FROM cs_activity";
         $res_data = pg_query($db, $sql_data);
         $row_data = pg_fetch_row($res_data);

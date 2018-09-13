@@ -42,11 +42,18 @@ $result = pg_fetch_array($query);
    href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
    <i class="fa fa-bars"></i></a>
    
-  <div class="w3-bar w3-black w3-card w3-container">
+  <div class=" w3-black  w3-container">
     
    
-    
-      <a href="st_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ข้อมูลนักศึกษา</a>
+      <div class="w3-dropdown-hover">
+      <a href="st_manage.php" class="w3-padding-large w3-button w3-black" >ข้อมูลนักศึกษา <i class="fa fa-caret-down"></i></a>
+      <div class="w3-dropdown-content w3-bar-block w3-border">
+      <a href="st_class_1.php"  class="w3-bar-item w3-button"  onClick="myfunction()" >ชั้นปีที่ 1</a>
+      <a href="st_class_2.php"  class="w3-bar-item w3-button"  onClick="myfunction1()" >ชั้นปีที่ 2</a>
+      <a href="st_class_3.php"  class="w3-bar-item w3-button"  onClick="myfunction()" >ชั้นปีที่ 3</a>
+      <a href="st_class_4.php"  class="w3-bar-item w3-button"  onClick="myfunction1()" >ชั้นปีที่ 4</a>
+      </div>
+      </div>
       <a href="ac_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ข้อมูลบุคลากร</a>
       <a href="ac_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ข้อมูลกิจกรรม</a>
       <a href="user_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ข้อมูลสมาชิกทั่วไป</a>
@@ -58,20 +65,6 @@ $result = pg_fetch_array($query);
   
   </div>
   </div>
-  <!--<script>
-        function myfunction() {
-          window.open("Student.php")
-        }
-         
-         function myfunction1() {
-
-          window.open("Student_1.php")
-        }
-        function myfunction2() {
-
-        window.open("index.php")
-}
-        </script> -->
 </div>
 </body>
 </html>

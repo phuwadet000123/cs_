@@ -1,7 +1,7 @@
 <?php
         require '../connectdb/connectdb.php';
         
-        //รับค่า h_id
+        //รับค่า ac_id
         $ac_id = $_GET['ac_id'];
 
         //sqlDelete Image

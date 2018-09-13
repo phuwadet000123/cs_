@@ -10,7 +10,7 @@
 <link rel='stylesheet' id='layers-components-css'  href='http://www.math.sc.chula.ac.th/wp-content/themes/newmath/assets/css/components.css?ver=1.1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='layers-style-css'  href='http://www.math.sc.chula.ac.th/wp-content/themes/newmath/style.css?ver=1.1.1' type='text/css' media='all' />
 <script type='text/javascript' src='http://www.math.sc.chula.ac.th/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
-</script>
+
 
 
 	

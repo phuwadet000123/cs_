@@ -8,7 +8,7 @@
         $result = pg_query($db, $sql);
         $row = pg_fetch_array($result);
         
-        //herb_data
+        //cs_class
         $sqlClass = "SELECT * FROM cs_class";
         $queryClass = pg_query($db, $sqlClass);
 

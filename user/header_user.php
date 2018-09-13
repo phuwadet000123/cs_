@@ -57,20 +57,7 @@ $result = pg_fetch_array($query);
   
   </div>
   </div>
-  <!--<script>
-        function myfunction() {
-          window.open("Student.php")
-        }
-         
-         function myfunction1() {
-
-          window.open("Student_1.php")
-        }
-        function myfunction2() {
-
-        window.open("index.php")
-}
-        </script> -->
+ 
 </div>
 </body>
 </html>

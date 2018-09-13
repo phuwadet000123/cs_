@@ -1,11 +1,11 @@
 <?php 
         require 'header_admin.php';
 
-        //sql medic_part
+        //sql cs_class
         $sqlClass = "SELECT * FROM cs_class";
         $queryClass = pg_query($db, $sqlClass);
 
-        //medicine
+        //cs_student
         $sql_data = "SELECT MAX(st_id) FROM cs_student";
         $res_data = pg_query($db, $sql_data);
         $row_data = pg_fetch_row($res_data);
