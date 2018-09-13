@@ -44,6 +44,7 @@
                         <th><center>รูปภาพ</center></th>
                         <th><center>วันเวลา</center></th>
                         <th><center>ดูข้อมูล</center></th>
+                        <th><center>post</center></th>
                         <th><center>แก้ไข</center></th>
                         <th><center>ลบ</center></th>
                     </tr>
@@ -56,18 +57,22 @@
                         <!-- ลำดับ 
                         <td><center><?php echo $row['ac_id']; ?></center></td>-->
             
-                        <!-- ประเภท -->
+                        <!-- ชื่อ -->
                         <td><center><?php echo $row['ac_name']; ?></center></td>
 
                         <!-- img -->
                         <td><center><img src="../images_ac/<?php echo $row['ac_img']; ?>" style="width:150px;height:130px;"></center></td>
             
             
-                        <!-- ชื่อ -->
+                        <!-- เวลา -->
                         <td><center><?php echo $row['ac_date']; ?></center></td>
 
                        
                         
+                        <!-- post -->
+                        <td><center><a href="../index.php?ac_id=<?php echo $row['ac_id']; ?>" class="btn btn-info btn-md">
+                                <span class="fa fa-info w3-xxlarge"></span>
+                        </a></center></td>
                         <!-- ดูข้อมูล -->
                         <td><center><a href="show_medicine.php?medicine_id=<?php echo $row['medicine_id']; ?>" class="btn btn-info btn-md">
                                 <span class="fa fa-info w3-xxlarge"></span>

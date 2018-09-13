@@ -36,7 +36,7 @@
         //check 
         if($result){
             //echo "Complete";
-            header("Location:ac_manage.php");
+            header("Location:../index.php");
         } else {
             echo pg_last_error($db);
         }

@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  
+  <link rel='stylesheet' id='layers-framework-css'  href='http://www.math.sc.chula.ac.th/wp-content/themes/newmath/assets/css/framework.css?ver=1.1.1' type='text/css' media='all' />
+  <link rel='stylesheet' id='layers-components-css'  href='http://www.math.sc.chula.ac.th/wp-content/themes/newmath/assets/css/components.css?ver=1.1.1' type='text/css' media='all' />
+  <link rel='stylesheet' id='layers-style-css'  href='http://www.math.sc.chula.ac.th/wp-content/themes/newmath/style.css?ver=1.1.1' type='text/css' media='all' />
+  <script type='text/javascript' src='http://www.math.sc.chula.ac.th/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
+ 
   <head>
   
   <div>
@@ -25,7 +30,7 @@
   <div class="w3-bar w3-black w3-card w3-container">
     
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right " href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="" class="w3-bar-item w3-button w3-padding-large  " onClick="myfunction2()">HOME<i class="w3-margin-left fa fa-home"></i></a>
+    <a href="index.php" class="w3-bar-item w3-button w3-padding-large  " >HOME<i class="w3-margin-left fa fa-home"></i></a>
     
     <div class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button" title="More">หลักสูตร <i class="fa fa-caret-down"></i></button>  
@@ -96,4 +101,10 @@
         </script> -->
 </div>
 </body>
+
+<link rel='stylesheet' id='font-awesome-css'  href='//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css?ver=4.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='su-box-shortcodes-css'  href='http://www.math.sc.chula.ac.th/wp-content/plugins/shortcodes-ultimate/assets/css/box-shortcodes.css?ver=4.9.7' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.math.sc.chula.ac.th/wp-content/plugins/youtube-channel/assets/lib/magnific-popup/jquery.magnific-popup.min.js?ver=3.0.7.3'></script>
+<script type='text/javascript' src='http://www.math.sc.chula.ac.th/wp-content/plugins/shortcodes-ultimate/assets/js/other-shortcodes.js?ver=4.9.7'></script>
+
 </html>
