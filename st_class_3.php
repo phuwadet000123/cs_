@@ -18,7 +18,7 @@
         <div class="w3-container">
            
         
-            <h2>ข้อมูลนักศึกษาชั้นปีที่ 3</h2> 
+            <h2>3rd Year Student Information</h2> 
            <hr>
                 
                     

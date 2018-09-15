@@ -14,7 +14,7 @@
         <div class="w3-container">
            
             
-            <h2>ข้อมูลกิจกรรม</h2> 
+            <h2>Activities Information</h2> 
             <table class="w3-table-all w3-card-4 ">
                 <thead>
                     
@@ -41,12 +41,12 @@
                     
                     <tr class="w3-black">
                         <!--<th><center>#</center></th>-->
-                        <th><center>ชื่อกิจกรรม</center></th>
-                        <th><center>รูปภาพ</center></th>
-                        <th><center>วันเวลา</center></th>
-                        <th><center>ดูข้อมูล</center></th>
-                        <th><center>แก้ไข</center></th>
-                        <th><center>ลบ</center></th>
+                        <th><center>Name Activitie</center></th>
+                        <th><center>Photo Activitie</center></th>
+                        <th><center>Date&time</center></th>
+                        <th><center>Info</center></th>
+                        <th><center>Edit</center></th>
+                        <th><center>Delete</center></th>
                     </tr>
                 </thead>
                 
@@ -91,7 +91,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <a href="ac_add.php" class="w3-button w3-black w3-round w3-right" >
-                        <span class="glyphicon glyphicon-plus"> เพิ่มข้อมูลกิจกรรม</span>
+                        <span class="glyphicon glyphicon-plus">Add Information</span>
                     </a>    
                                     
                 </div>

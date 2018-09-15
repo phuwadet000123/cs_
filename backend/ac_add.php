@@ -20,38 +20,38 @@
 
 <div class="w3-card-4 w3-container">
   <div class="w3-container w3-dark-grey" >
-    <h2>เพิ่มข้อมูล</h2>
+    <h2>Add Infomation.</h2>
   </div>
   <form class="w3-container" action="ac_insert.php" method="POST" enctype="multipart/form-data">
 
     <input name="ac_id" type="hidden" class="w3-input w3-border w3-round-large" value="<?php echo $row_data2; ?>"> 
     
     <p>      
-    <label class="w3-text-black"><b>ชื่อกิจกรรม</b></label>
+    <label class="w3-text-black"><b>Name Activitie</b></label>
     <input class="w3-input w3-border w3-sand" name="ac_name" type="text"></p>
     <p>      
-    <label class="w3-text-black"><b>ข้อมูลกิจกรรม</b></label>
+    <label class="w3-text-black"><b>Infomation</b></label>
     <textarea class="w3-input w3-border w3-sand" name="ac_data" type="text" rows="9"></textarea></p>
     <p>      
-    <label for="ac_img" class="w3-text-black control-label">รูปภาพ :</label>
+    <label for="ac_img" class="w3-text-black control-label">Photo :</label>
     <input type="file" name="ac_img" accept="image/*" required></p>
     <p>      
-    <label class="w3-text-black"><b>สถานที่</b></label>
+    <label class="w3-text-black"><b>Place</b></label>
     <input class="w3-input w3-border w3-sand" name="ac_place" type="text" ></p>
     <p>      
-    <label class="w3-text-black"><b>วันเวลา</b></label>
+    <label class="w3-text-black"><b>Date&Time</b></label>
     <input class="w3-input w3-border w3-sand" name="ac_date" type="text" ></p>
     <p>      
-    <label class="w3-text-black"><b>ติดค่อ</b></label>
+    <label class="w3-text-black"><b>Contact</b></label>
     <input class="w3-input w3-border w3-sand" name="ac_contact" type="text" ></p>
     <p>      
-    <label class="w3-text-black"><b>ผู้จัด</b></label>
+    <label class="w3-text-black"><b>Founder</b></label>
     <input class="w3-input w3-border w3-sand" name="ac_founder" type="text" ></p>
  
     <p>
-    <button class="w3-btn w3-black" type = "submit">บันทึก</button>
+    <button class="w3-btn w3-black" type = "submit">Save</button>
     <a href="ac_manage.php" class="w3-btn w3-black" >
-    <span class="glyphicon glyphicon-plus"> กลับ</span></a></p>
+    <span class="glyphicon glyphicon-plus">Cancel</span></a></p>
   </form>
 </div>
 

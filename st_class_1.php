@@ -12,13 +12,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     </head>
+
+
     <body>
     <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
     <div class="w3-main w3-content" style="max-width:1000px; margin-top:20px">
         <div class="w3-container">
            
         
-            <h2>ข้อมูลนักศึกษาชั้นปีที่ 1</h2> 
+            <h2>1st Year Student Information</h2> 
            <hr>
                 
                     

@@ -22,6 +22,7 @@ $result = pg_fetch_array($query);
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
 
   <style>
  h1 { color: #202020 ;
@@ -30,7 +31,7 @@ $result = pg_fetch_array($query);
   
   <head>
   <div>
-  <h1 style = "text-align: center;" ><b>Computer science(admin)</b></h1>
+  <h1 style = "text-align: center;" ><b>Computer Science(admin)</b></h1>
   </div>
   </head>
 
@@ -46,19 +47,19 @@ $result = pg_fetch_array($query);
     
    
       <div class="w3-dropdown-hover">
-      <a href="st_manage.php" class="w3-padding-large w3-button w3-black" >ข้อมูลนักศึกษา <i class="fa fa-caret-down"></i></a>
+      <a href="st_manage.php" class="w3-padding-large w3-button w3-black" >Student Information <i class="fa fa-caret-down"></i></a>
       <div class="w3-dropdown-content w3-bar-block w3-border">
-      <a href="st_class_1.php"  class="w3-bar-item w3-button"  onClick="myfunction()" >ชั้นปีที่ 1</a>
-      <a href="st_class_2.php"  class="w3-bar-item w3-button"  onClick="myfunction1()" >ชั้นปีที่ 2</a>
-      <a href="st_class_3.php"  class="w3-bar-item w3-button"  onClick="myfunction()" >ชั้นปีที่ 3</a>
-      <a href="st_class_4.php"  class="w3-bar-item w3-button"  onClick="myfunction1()" >ชั้นปีที่ 4</a>
+      <a href="st_class_1.php"  class="w3-bar-item w3-button"  onClick="myfunction()" >1st year</a>
+      <a href="st_class_2.php"  class="w3-bar-item w3-button"  onClick="myfunction1()" >2nd year</a>
+      <a href="st_class_3.php"  class="w3-bar-item w3-button"  onClick="myfunction()" >3rd year</a>
+      <a href="st_class_4.php"  class="w3-bar-item w3-button"  onClick="myfunction1()" >4th year</a>
       </div>
       </div>
-      <a href="ac_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ข้อมูลบุคลากร</a>
-      <a href="ac_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ข้อมูลกิจกรรม</a>
-      <a href="user_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ข้อมูลสมาชิกทั่วไป</a>
-      <a href="user_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ข้อมูลผู้ดูแลระบบ</a>
-      <a href="logout.php" class="w3-right w3-bar-item w3-button w3-padding-large w3-hide-small w3-dark">ออกจากระบบ</a>
+      <a href="ac_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Instructor Information</a>
+      <a href="ac_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">activities Information</a>
+      <a href="user_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">User Information</a>
+      <a href="user_manage.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Admin Information</a>
+      <a href="logout.php" class="w3-right w3-bar-item w3-button w3-padding-large w3-hide-small w3-dark">Logout</a>
     
   </div>
   

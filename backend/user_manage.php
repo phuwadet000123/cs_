@@ -18,16 +18,16 @@
             
 
            
-            <h2>ข้อมูลสมาชิกทั่วไป </h2> 
+            <h2>User Infomation </h2> 
             <table class="w3-table-all w3-card-4">
                 <thead>
                     <tr class="w3-black">
                         <!--<th><center>#</center></th>-->
-                        <th><center>ชื่อ</center></th>
-                        <th><center>สถานะ</center></th>
-                        <th><center>ดูข้อมูล</center></th>
-                        <th><center>แก้ไข</center></th>
-                        <th><center>ลบ</center></th>
+                        <th><center>Name</center></th>
+                        <th><center>Status</center></th>
+                        <th><center>Info</center></th>
+                        <th><center>Edit</center></th>
+                        <th><center>Delete</center></th>
                     </tr>
                 </thead>
                 
@@ -66,7 +66,7 @@
             </table>
             <br>
             <a href="user_add.php" class="w3-button w3-black w3-round w3-right" >
-                        <span class="glyphicon glyphicon-plus"> เพิ่มข้อมูลนักศึกษา</span>
+                        <span class="glyphicon glyphicon-plus"> Add Infomation</span>
             </a> 
             </div>
         </div>

@@ -13,7 +13,7 @@
         <div class="w3-container">
            
             
-            <h2>ข้อมูลนักศึกษาชั้นปีที่ 4</h2> 
+            <h2>4th Year Student Information</h2> 
             <table class="w3-table-all w3-card-4 ">
                 <thead>
                     
@@ -42,14 +42,14 @@
                     
                     <tr class="w3-black">
                         <!--<th><center>#</center></th>-->
-                        <th><center>รหัสนักศึกษา</center></th>
-                        <th><center>ชั้นปี</center></th>
-                        <th><center>ชื่อ</center></th>
-                        <th><center>นามสกุล</center></th>
-                        <th><center>รูป</center></th>
-                        <th><center>ดูข้อมูล</center></th>
-                        <th><center>แก้ไข</center></th>
-                        <th><center>ลบ</center></th>
+                        <th><center>Student Code</center></th>
+                        <th><center>Year</center></th>
+                        <th><center>First Name</center></th>
+                        <th><center>Last Name</center></th>
+                        <th><center>Photo</center></th>
+                        <th><center>Info</center></th>
+                        <th><center>Edit</center></th>
+                        <th><center>Delete</center></th>
                     </tr>
                 </thead>
                 
@@ -101,7 +101,7 @@
            
                
                     <a href="st_add.php" class="w3-button w3-black w3-round w3-right" >
-                        <span class="glyphicon glyphicon-plus"> เพิ่มข้อมูลนักศึกษา</span>
+                        <span class="glyphicon glyphicon-plus"> Add Infomation</span>
                     </a>    
                                     
                 
